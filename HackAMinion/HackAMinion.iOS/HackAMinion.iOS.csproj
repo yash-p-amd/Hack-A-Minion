@@ -133,6 +133,15 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="ReactiveUI">
+      <Version>9.13.1</Version>
+    </PackageReference>
+    <PackageReference Include="ReactiveUI.Events.XamForms">
+      <Version>9.13.1</Version>
+    </PackageReference>
+    <PackageReference Include="ReactiveUI.XamForms">
+      <Version>9.13.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
   </ItemGroup>
@@ -142,5 +151,11 @@
       <Project>{AAC1A86C-7349-4DAB-BB53-75CCE8561064}</Project>
       <Name>HackAMinion</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\compass.png" />
   </ItemGroup>
 </Project>
