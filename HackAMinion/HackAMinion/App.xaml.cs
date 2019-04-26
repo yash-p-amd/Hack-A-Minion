@@ -11,7 +11,8 @@ namespace HackAMinion
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new Views.MasterPage();
+
         }
 
         protected override void OnStart()
