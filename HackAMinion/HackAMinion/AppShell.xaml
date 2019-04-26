@@ -71,11 +71,11 @@
     <!-- Your Pages -->
     <ShellItem>
         <ShellSection Title="Browse" Icon="tab_feed.png">
-            <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:MinionPage}" />
         </ShellSection>
-        <ShellSection Title="About" Icon="tab_about.png">
+        <!--<ShellSection Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </ShellSection>
+        </ShellSection>-->
     </ShellItem>
 
     <!-- Optional Templates 
