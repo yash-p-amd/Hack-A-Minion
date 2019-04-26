@@ -1,8 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using HackAMinion.Services;
-using HackAMinion.Views;
 
 namespace HackAMinion
 {
@@ -13,7 +11,6 @@ namespace HackAMinion
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 
